@@ -1,0 +1,629 @@
+.nav{
+    display: inline-block;
+    /* justify-content: center;
+    align-items: center; */
+    border:1px solid black;
+    width: 100%;
+    height: auto;
+    margin-left:10px;
+    background:rgb(228, 188, 231);
+    /* position: auto; */
+  }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+/* .nav img{
+  margin: 10px;
+} */
+/* .input{
+    display: inline-block;
+    /* justify-content: center; */
+    /* margin-left : 210px; */
+    /* margin-bottom: 24px; */
+/* } */ 
+.inp{
+    display:inline-block;
+    margin-left: 150px;
+}
+.nav1{
+    display: inline-block;
+   padding: 10px;
+    margin-left: 150px;
+}
+button:hover{
+    background-color:blue;
+}
+/* responsive ness  */
+
+@media (max-width:600px){
+  .nav{
+    display: inline-block;
+    /* justify-content: center;
+    align-items: center; */
+    border:1px solid blue;
+    width: 100%;
+    height: auto;
+    background:rgb(228, 188, 231);
+    /* position: auto; */
+  }
+  .inp{
+    display:inline-block;
+    margin-left: 150px;
+}
+.nav1{
+    display: inline-block;
+   padding: 10px;
+    margin-left: 150px;
+}
+button:hover{
+    background-color:blue;
+}
+
+}
+body{
+    /* background-image: url('bookwall.jpg'); */
+   background-color:rgb(229, 203, 233) ;
+    /* opacity: 0.90; */
+    /* background-size: cover; */
+    /* background-attachment: scroll; */
+}
+#lab1{
+  color:black;
+
+}
+.choices{
+    display: block;
+    width: 150px;
+    height: auto;
+    border: 1px solid  black;
+    padding:10px;
+    border:2px solid black;
+    border-radius: 10px;
+}
+.l1{
+    color:black;
+}
+input[type="checkbox"]{
+    margin-bottom: 20px;
+}
+.l1:hover{
+    color: blue;
+}
+.range,label{
+    display: flex;
+    margin-bottom: 10px;
+    color:black;
+   
+}
+.range{
+    margin-top: -500px;
+    display: block;
+    border: 2px solid black;
+    border-radius: 10px;
+   float:right;
+   width:100px;
+   /* background-color: blue;; */
+}
+
+li{
+    list-style: none;
+}
+
+  /* Dropdown button styling */
+/* .dropbtn{
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    display: block;
+  }
+  .dropdown{
+    position: relative;
+   display: block;
+   
+    float:right;
+    margin-top: -190px;
+  }
+  .dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+   
+    pointer-events: auto;
+   
+  } */
+  .dropdown {
+    position: relative; /* Ensure dropdown content aligns properly */
+    display: inline-block;
+}
+.dropbtn {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.dropdown-content {
+    display: none; /* Hidden by default */
+    position: absolute; /* Positioned relative to .dropdown */
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+    display: block; /* Show dropdown content on hover */
+}
+
+  .cont{
+    display:flex;
+    margin-top: 200px;
+  }
+  .main{
+  display: flex; /* Activate grid layout */
+  flex-wrap: wrap;
+  width: 40%;
+  width:auto;
+  height: auto;
+  margin-top: -550px;
+    /* margin-bottom: 10%; */
+  margin-left: 30%;
+  margin-right: 15%;
+  gap: 10px; /* Space between boxes */
+  padding: 10px;
+  /* background-color: lightblue; */
+  }
+ 
+ .my-image{
+  margin-top: 200px;
+  height: 100px;
+  width: 100px;
+  border-radius: 13px;
+  margin:10px;
+  cursor:pointer;
+  transition:400ms;
+  border:1px solid red;
+  padding:10px;
+}
+.my-image:hover{
+  filter:grayscale(1);
+  transform: scale(1.05);
+}
+.form{
+  display:flex;
+  justify-content: center;
+  justify-items: center;
+  height: 50%;
+  width: 50%;
+  flex-wrap: wrap;
+  border:2px solid black;
+  border-radius: 10px;
+  margin-left:250px;
+}
+#lab2{
+  margin-left: 100px;
+}
+.f1{
+  margin-top: 10px;
+  color: red;
+ 
+}
+.f1 label{
+  margin:10%;
+}
+.bt11 button{
+  margin-left: 150px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+button[type="submit"]{
+  margin-left:30%;
+}
+button[type="reset"]{
+  margin:10%;
+}
+
+.service1{
+  display:inline-block;
+
+}
+a{
+  text-decoration: none;
+}
+.c1{
+  display: block;
+  color: blue;
+}
+
+/* This is parrent div ok  */
+.service2{                  
+  display: flex;
+  margin-top:5%;
+  width: 100%;
+  height:50vh;
+  /* border: 1px solid black; */
+}
+.service2_sub{
+  display: flex;
+  flex-wrap: wrap;
+  width: 23%;
+  height:50vh;
+  margin:auto;
+  border:1px solid black;
+}
+.service2_sub img{
+  width:105%;
+  height:40vh;
+  overflow:hidden;
+}
+.link{
+  display: inline;
+  color:red;
+  font-weight: bold;
+  /* text-align: center; */
+  margin:auto;
+  text-decoration: none;
+}
+.service2_sub:hover{
+  /* color: rgb(203, 226, 121); */
+  background-color:purple;
+}
+@media (max-width :600px){
+  .service2{                  
+    display: flex;
+    margin-top:5%;
+    width: 100%;
+    height:50vh;
+    /* border: 1px solid black; */
+  }  
+  .service2_sub{
+    display: flex;
+    flex-wrap: wrap;
+    width: 23%;
+    height:50vh;
+    margin:auto;
+    border:1px solid black;
+  }
+  .service2_sub img{
+    width:105%;
+    height:40vh;
+    overflow:hidden;
+  }
+  .link{
+    display: inline;
+    color:orangered;
+    font-weight: bold;
+    /* text-align: center; */
+    margin:auto;
+    text-decoration: none;
+  }
+  .service2_sub:hover{
+    /* color: rgb(203, 226, 121); */
+    background-color:red;
+  }
+}
+/* --------------------------------------------------Contact us  */
+.abus1{
+  margin-top:10%;
+  margin-left:15%;
+  padding: 5%;
+  display: flex;
+  text-wrap: wrap;
+  width: 60%;
+  height:auto;
+  /* border: 1px solid black; */
+  /* margin:auto; */
+
+}
+.abus2{
+  /* margin-top:5% ; */
+  margin-left:15%;
+  padding: 5%;
+  display: flex;
+  text-wrap: wrap;
+  width: 60%;
+  height:auto;
+  /* border: 1px solid black; */
+ 
+}
+.abus1:hover{
+  background-color: purple;
+}
+.abus2:hover{
+  background-color: purple;
+}
+.sbt{
+  margin-left:5%;
+  margin-top:-8%;
+  margin-right:5%;
+  float:right; 
+}
+.sbt a:hover{
+  color:yellow;
+}
+input{
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+}
+input:focus {
+  border-bottom: 2px solid  black; /* Show bottom border on focus */
+}
+/* table{
+  border:1px solid black;
+  border-collapse: collapse;
+
+} */
+
+.con{
+  display: flex;
+  flex-wrap: wrap;
+  width:35vw;
+  height:50vh ;
+  height: auto;
+  margin-left:35%;
+  margin-top:10%;
+  border: 1px  solid blue;
+}
+
+.formlab,input{
+ 
+  background-color:whitesmoke;
+}
+textarea{
+  outline: none;
+}
+.btc{
+  margin: 20%;
+  margin-left:55%;
+}
+.btc input:hover{
+  background-color: blue;
+}
+th {
+  text-align: center;
+
+  width: auto; /* अपनी आवश्यकता अनुसार बदलें */
+}
+.join_parent{
+  display:flex;
+  /* flex-wrap: nowrap; */
+  width: 100%;
+  height: 50vh;
+  border: 1px solid black;
+}
+.join_child{
+  display: flex;
+  flex-wrap: nowrap;
+  width:23%;
+  margin:2%;
+  border:1px solid black;
+}
+/* working on question page  */
+.question{
+  /* border:1px solid black;
+  display: flex;
+  flex-direction: row;
+  width:80%;
+  height:400px;
+  margin:10%; */
+  display: grid;
+  grid-template-rows: repeat(3, 1fr); /* 3 items ko equal width dene ke liye */
+  /* gap: 5px; */
+ 
+}
+.subquestion{
+  background-color:rgb(245, 230, 230);
+  margin:auto;
+  width: 80%;
+  border:1px solid blue;
+  height: 70px;
+}
+.questioninfo{
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+  padding:auto;
+  
+}
+.footer1{
+  display:flex;
+  height: 70vh;
+  width: auto;
+  background-color:black;
+}
+.f2{
+  display: inline-block;
+  margin:auto;
+  margin-left:10px;
+  height: 70vhvh;
+  width: 50%;
+  /* margin-left:10px; */
+  background-color:black;
+  border:1px yellow;
+}
+.f2info{
+  text-align: center;
+  text-justify: auto;
+  line-height: 2;
+  color:red;
+  
+}
+.f2info a{
+  color:red;
+}
+/* .parentInfo{
+  display:inline-block ;
+  height:100%;
+  margin-top:35%;
+  width: auto;
+  background-color: orange;
+}
+.info{
+ 
+  margin-top:35%;
+  width: auto;
+  /* width: 40vws; */
+  /* height: 100%; */
+  /* border:2px solid black; */
+  /* background-color: rgb(209, 71, 228); */
+  
+/* } */
+/* .in1{
+  width: 30%;
+  height: 50vh;
+  margin-left: 8%;
+  border: 2px solid black;
+ 
+}
+.in2{
+  margin-left:8%;
+ 
+}
+.in3{
+  margin-left:8%;
+
+}
+.in1:hover{
+  background-color: rgb(179, 85, 179);
+}
+.in2:hover{
+  background-color: rgb(179, 85, 179);
+}
+.in3:hover{
+  background-color: rgb(179, 85, 179);
+} */ 
+ .f2.f2info a{
+  text-decoration: none;
+  color:black;
+ }
+ .contentpage{
+  margin:10%;
+  /* background-color: blue; */
+ }
+ .pagecont {
+  line-height: 3;
+ }
+ .contentvideo{
+  margin-left:30%;
+  margin-top:10%;
+ }
+ .contq1{
+  margin-left:35%;
+  margin-top:5%;
+  margin-right: auto;
+ }
+ .tabl{
+  text-decoration: underline;
+  font-weight: bold;
+ }
+#bt1{
+      margin-top:5%;
+      margin-left:8%;
+      padding:5px;
+}
+.txtarea{
+  margin-top:5%;
+  margin-left:10%;
+}
+.extra{
+  margin-top:5%;
+}
+td{
+  padding:15px;
+}
+table th{
+  text-align: center;
+  padding: 10px;
+  margin-left:50%;
+}
+.bn{
+  
+  display: flex;
+  /* margin-left: 30%; */
+  margin-top:5%;
+  margin-left: 30%;
+  height:70%;
+  width: 50%;
+  text-align: center;
+  padding: 10;
+  border: 1px solid black;
+}
+.bn1{
+  margin:auto;
+}
+.button-container {
+  display: flex; /* Flexbox का उपयोग करके buttons को side-by-side करें */
+  justify-content: space-between; /* Buttons को opposite edges पर रखें */
+  width: 50%; /* Container की width सेट करें */
+  margin: 5px auto ; /* Container को center में लाने के लिए */
+  margin-left:10%;
+  gap: 20px;
+}
+button {
+  padding:5px; /* Buttons की padding सेट करें */
+  font-size: 10px; /* Font size सेट करें */
+  cursor: pointer; /* Pointer cursor styling */
+}
+.loginclass{
+  display: flex;
+ 
+  /* background-color: black; */
+  width: auto;
+  height: 50vh;
+  margin:5% auto;
+  /* margin-top:10%;
+  margin-left: 30%;  
+  margin-right: -10%; */
+}
+.logclass {
+  display: flex;
+  justify-content: center; 
+  margin-left: 40%;
+  color:red;
+  text-decoration: underline 1px solid black;
+}
+.logform{
+  text-align: center;
+  /* padding: 5%; */
+  margin:10%;
+  margin-left:-110px;
+  
+}
+.log1{
+  color:red;  
+}
+.logbt{
+  margin:5% auto;
+  margin-bottom: 2%;
+}
+.mainreg{
+  display: flex;
+  border: 1px solid black;
+  width: 50%;
+  height: 50vh;
+  margin:5% auto;
+}
+#th1{
+  /* margin-left:10%; */
+  
+    text-align: center; /* Horizontally center text */
+    vertical-align: middle; /* Vertically center text (optional) */
+    padding: 12px; /* Spacing for better design */
+    border: 1px solid #ccc; /* Add border for styling */
+    margin-left: 20px;
+    width: 100%;
+    margin-right: 20%;
+
+}
